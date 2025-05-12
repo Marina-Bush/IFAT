@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-    WebDriver browser;
+    public WebDriver browser;
 
     @BeforeMethod
     public void setup() {
